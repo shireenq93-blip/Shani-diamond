@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: pink; text-align: center;">
+<h1 style="color: purple;">Assalam-o-Alaikum Aliza</h1>
+<p id="meraTree" style="font-size: 120px;">&#127794;</p>
+<button id="meraButton" style="padding:10px; background-color:purple ">Aliza rocks! </button>
+<br>
+<h1 style="color: purple; text-align: ce
+nter;">Aliza ki dunya me khushamdeed 
+<p style="margin-top:25px; font-size:20px; font-style:italic; color:purple;">
+Tumhari dunya, tumhare khwab <br>
+Aliza, yahan sab kuch hai khaas
+<script>
+let hila = false;
+document.getElementById("meraButton").onclick = function() {
+  if(hila == false) {
+    document.getElementById("meraTree").style.transform = "rotate(20deg)";
+    hila = true;
+  } else {
+    document.getElementById("meraTree").style.transform = "rotate(0deg)";
+    hila = false;
+  }
+}
+</script>
+</body>
+</html>
